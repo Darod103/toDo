@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    
+}
+
+
+
+.todo-item {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px; 
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+
+.input-control{
+    display: flex;
+    flex-grow: 1;
+}
+.textarea {
+    height: auto; 
+    outline: none;
+    border: none;
+    resize: none;
+    background-color: transparent;
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.hide {
+    display: none;
+}
+
+
+.edit-controlle {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    height: 15%;
+    justify-content: flex-end;
+}
+
+.edit-controlle i {
+    cursor: pointer;
+}
+
+.edit-controlle i:hover {
+    color: #363636; 
+}

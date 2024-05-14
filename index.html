@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Todo List</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="level date"></div>
+      </div>
+    </section>
+    <div class="container is-flex is-justify-content-center">
+      <div class="container">
+        <h1 class="title has-text-centered has-text-primary">Todo List</h1>
+        <div class="field has-addons">
+          <div class="control is-expanded">
+            <input
+              class="input"
+              type="text"
+              id="task-input"
+              placeholder="Добавить задачу"
+              autocomplete="off"
+            />
+          </div>
+          <div class="control">
+            <button class="button is-primary has-text-black" id="add-task">
+              Добавить
+            </button>
+          </div>
+        </div>
+        <div id="task-list" class="content">
+            
+                <div class="box todo-item">
+                    <div class="input-control">
+                        <textarea class="textarea" readonly></textarea>
+                    </div>
+                    <div class="edit-controlle">
+                        <i class="fas fa-check" id ="agree"></i>
+                        <i class="fas fa-edit" id ="edit"></i>
+                    </div>
+                </div>
+            
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/scripts.js"></script>
+  </body>
+</html>
